@@ -18,7 +18,7 @@ header{
 	top: 0;
 	width: 100%;
 	z-index: 10;
-	min-width: 490px;
+	min-width: 480px;
 	border-bottom: 1px solid black;
 }
 
@@ -374,6 +374,36 @@ th, td {
 	}
 
 
+
+
+}
+
+@media (max-width: 480px) {
+
+
+	#redes-sociais {
+		display: none;
+	}
+
+	.barra-navegacao {
+		
+		justify-content: space-around;
+		font-size: 14px;
+	}
+
+	.calculadora-taxas {
+		width: 360px;
+	}
+
+	#tabela-cfop {
+		height: 700px;
+	}
+
+
+	.barra-navegacao-2 {
+		font-size: 13px;
+		float: none;
+	}
 
 
 }
