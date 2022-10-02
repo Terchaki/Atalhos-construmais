@@ -317,6 +317,10 @@ th, td {
 
 @media (max-width: 767px) {
 
+	.barra-navegacao ul {
+		font-size: 15px;
+	}
+
 
 	.barra-navegacao ul li {
 		background: transparent;
@@ -396,13 +400,24 @@ th, td {
 	}
 
 	#tabela-cfop {
-		height: 700px;
+		height: 720px;
 	}
 
 
 	.barra-navegacao-2 {
 		font-size: 13px;
 		float: none;
+	}
+
+
+}
+
+@media (max-width: 418px) {
+
+
+	.barra-navegacao ul {
+		margin-right: 50px;
+		font-size: 14px;
 	}
 
 
