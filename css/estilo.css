@@ -475,3 +475,49 @@ th, td {
 	}
 
 }
+
+@media (max-width: 480px) {
+
+
+	#redes-sociais {
+		display: none;
+	}
+
+	.barra-navegacao {
+
+		justify-content: space-around;
+		font-size: 14px;
+	}
+
+	.calculadora-taxas {
+		width: 360px;
+	}
+
+	#tabela-cfop {
+		height: 720px;
+	}
+
+
+	.barra-navegacao-2 {
+		font-size: 13px;
+		float: none;
+	}
+
+
+}
+
+@media (max-width: 418px) {
+
+
+	.barra-navegacao ul {
+		margin-right: 50px;
+		font-size: 14px;
+	}
+
+
+	#bandeiras img {
+
+		width: 300px;
+	}
+
+}
