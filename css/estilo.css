@@ -276,7 +276,6 @@ th, td {
 	height: 500px;
 	border: 1px solid black;
 	border-radius: 5px;
-	
 }
 
 #valor_digitado {
@@ -334,7 +333,10 @@ th, td {
 	margin-left: 20px;
 	width: 90px;
 	cursor: pointer;
+}
 
+#imprimir:hover {
+	background-color: lightgrey;
 }
 
 /*Configurando tela de impressão da tabela de taxas de juros.*/
