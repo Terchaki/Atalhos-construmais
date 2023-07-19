@@ -169,6 +169,43 @@ footer {
 
 
 
+.Calculadora-materiais {
+	color: #fff;
+	display: inline;
+	text-align: end;
+}
+
+.Calculadora-materiais i {
+	font-size: 40px;
+	opacity: 0.8;
+	background-color: #b3b3b3;
+	width: 60px;
+	height: 60px;
+	color: #f5fff4;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+
+.Calculadora-materiais i:hover {
+	color: rgb(255, 248, 248);
+	background-color: rgb(179, 179, 179);
+	scale: 1.2;
+	box-shadow: 0 0 5px 2px #686565;
+}
+
+.title {
+	background-color: #000;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	/* visibility: hidden; */
+}
+
+.Calculadora-materiais title {
+	visibility: visible;
+}
+
 .rodape {
 	display: flex;
 	justify-content: space-between;
